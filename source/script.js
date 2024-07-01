@@ -89,6 +89,11 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     }
 
+     function resetForm() {
+            document.getElementById('nameInput').value = '';
+            document.getElementById('result').style.display = 'none';
+        }
+
     // Function to calculate student's grade and display result
     function calculateNilai() {
         const nama = document.getElementById('nama').value;
